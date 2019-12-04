@@ -20,7 +20,7 @@ public class BaseClassForBrowserLaunch {
 	
 	public static WebDriver driver;	
 	private static Properties prop;
-	private static final String propertyFilePath = "C:\\Users\\Sekhar\\git\\99Acers\\configFiles\\config.properties";
+	private static final String propertyFilePath = System.getProperty("user.dir")+"/configFiles/config.properties";
 	
 	public BaseClassForBrowserLaunch() throws IOException {
 		
@@ -45,7 +45,7 @@ public class BaseClassForBrowserLaunch {
 		
 		if(browserName.equalsIgnoreCase("CH")) 
 		{
-			System.setProperty("webdriver.chrome.driver","C:\\Users\\Sekhar\\git\\99Acers\\Libraries\\chromedriver.exe" );
+			System.setProperty("webdriver.chrome.driver",System.getProperty("user.dir")+"/Libraries/chromedriver.exe" );
 			driver = new ChromeDriver();
 			driver.manage().window().maximize();
 			driver.manage().deleteAllCookies();
@@ -56,7 +56,7 @@ public class BaseClassForBrowserLaunch {
 		
 		else if(browserName.equalsIgnoreCase("IE")) 
 		{
-			System.setProperty("webdriver.ie.driver","../Maven/libraries/IEDriverServer.exe" );
+			System.setProperty("webdriver.ie.driver",System.getProperty("user.dir")+"/Libraries/IEDriverServer.exe" );
 			
 			InternetExplorerOptions options = new InternetExplorerOptions();
 			options.ignoreZoomSettings().introduceFlakinessByIgnoringSecurityDomains().withInitialBrowserUrl("https://www.99acres.com");
@@ -72,7 +72,7 @@ public class BaseClassForBrowserLaunch {
 
 		else if(browserName.equalsIgnoreCase("FF")) 
 		{
-			System.setProperty("webdriver.gecko.driver","../Maven/libraries/geckodriver.exe" );
+			System.setProperty("webdriver.gecko.driver",System.getProperty("user.dir")+"/Libraries/geckodriver.exe" );
 			
 			FirefoxOptions options = new FirefoxOptions();
 			options.setLegacy(true);

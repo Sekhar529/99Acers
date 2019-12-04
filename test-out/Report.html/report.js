@@ -7,7 +7,7 @@ formatter.feature({
   "keyword": "Feature"
 });
 formatter.before({
-  "duration": 35374749700,
+  "duration": 17645496400,
   "status": "passed"
 });
 formatter.scenario({
@@ -43,29 +43,29 @@ formatter.match({
   "location": "StepDefinationClass.user_landed_on_acrers_home_page()"
 });
 formatter.result({
-  "duration": 464781600,
+  "duration": 1236176800,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinationClass.user_click_on_toggle_slider_button()"
 });
 formatter.result({
-  "duration": 819057900,
+  "duration": 1661270500,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinationClass.user_can_able_to_see_products_moving()"
 });
 formatter.result({
-  "duration": 113300,
+  "duration": 97900,
   "status": "passed"
 });
 formatter.after({
-  "duration": 4847603800,
+  "duration": 4956042100,
   "status": "passed"
 });
 formatter.before({
-  "duration": 45862201900,
+  "duration": 15425678900,
   "status": "passed"
 });
 formatter.scenario({
@@ -106,7 +106,7 @@ formatter.match({
   "location": "StepDefinationClass.user_landed_on_acrers_home_page()"
 });
 formatter.result({
-  "duration": 1159400,
+  "duration": 1408000,
   "status": "passed"
 });
 formatter.match({
@@ -119,30 +119,30 @@ formatter.match({
   "location": "StepDefinationClass.user_type_location_as(String)"
 });
 formatter.result({
-  "duration": 1154918300,
+  "duration": 1731960400,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinationClass.user_clicks_on_serach()"
 });
 formatter.result({
-  "duration": 450782100,
+  "duration": 513430400,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinationClass.user_can_see_all_floats_under_hyderabad()"
 });
 formatter.result({
-  "duration": 642851500,
-  "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//div[@class\u003d\u0027newNdgeCochMrk hide\u0027]//img\"}\n  (Session info: chrome\u003d78.0.3904.87)\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.7.0\u0027, revision: \u00272321c73\u0027, time: \u00272017-11-02T22:22:35.584Z\u0027\nSystem info: host: \u0027SEKHAR-PC\u0027, ip: \u0027172.20.10.4\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_221\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 78.0.3904.87, chrome: {chromedriverVersion: 78.0.3904.70 (edb9c9f3de024..., userDataDir: C:\\Users\\Sekhar\\AppData\\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:49751}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nSession ID: b0ee4a5034295b9ddd989e7ebed2ef85\n*** Element info: {Using\u003dxpath, value\u003d//div[@class\u003d\u0027newNdgeCochMrk hide\u0027]//img}\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)\r\n\tat java.lang.reflect.Constructor.newInstance(Unknown Source)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:370)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:472)\r\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:361)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)\r\n\tat pages.HomePage.getNoOfPlots(HomePage.java:86)\r\n\tat stepDefinationFiles.StepDefinationClass.user_can_see_all_floats_under_hyderabad(StepDefinationClass.java:79)\r\n\tat ✽.Then User can see all floats under hyderabad(Home.feature:13)\r\n",
+  "duration": 7814697500,
+  "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//div[@class\u003d\u0027newNdgeCochMrk hide\u0027]//img\"}\n  (Session info: chrome\u003d78.0.3904.108)\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.7.0\u0027, revision: \u00272321c73\u0027, time: \u00272017-11-02T22:22:35.584Z\u0027\nSystem info: host: \u0027SEKHAR-PC\u0027, ip: \u0027192.168.0.103\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_221\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 78.0.3904.108, chrome: {chromedriverVersion: 78.0.3904.70 (edb9c9f3de024..., userDataDir: C:\\Users\\Sekhar\\AppData\\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:58725}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nSession ID: 00b7f7b47ae5c07fa8102e9f59ec48f9\n*** Element info: {Using\u003dxpath, value\u003d//div[@class\u003d\u0027newNdgeCochMrk hide\u0027]//img}\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)\r\n\tat java.lang.reflect.Constructor.newInstance(Unknown Source)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:370)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:472)\r\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:361)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)\r\n\tat pages.HomePage.getNoOfPlots(HomePage.java:86)\r\n\tat stepDefinationFiles.StepDefinationClass.user_can_see_all_floats_under_hyderabad(StepDefinationClass.java:79)\r\n\tat ✽.Then User can see all floats under hyderabad(Home.feature:13)\r\n",
   "status": "failed"
 });
 formatter.after({
-  "duration": 1102946800,
+  "duration": 5032060700,
   "status": "passed"
 });
 formatter.before({
-  "duration": 37441382800,
+  "duration": 13836592000,
   "status": "passed"
 });
 formatter.scenario({
@@ -193,7 +193,7 @@ formatter.match({
   "location": "StepDefinationClass.user_landed_on_acrers_home_page()"
 });
 formatter.result({
-  "duration": 2700400,
+  "duration": 2351500,
   "status": "passed"
 });
 formatter.match({
@@ -206,22 +206,22 @@ formatter.match({
   "location": "StepDefinationClass.user_type_location_as(String)"
 });
 formatter.result({
-  "duration": 864941900,
+  "duration": 2747611900,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinationClass.user_clicks_on_serach()"
 });
 formatter.result({
-  "duration": 381809000,
+  "duration": 773128800,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinationClass.user_can_see_all_floats_under_hyderabad()"
 });
 formatter.result({
-  "duration": 594977400,
-  "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//div[@class\u003d\u0027newNdgeCochMrk hide\u0027]//img\"}\n  (Session info: chrome\u003d78.0.3904.87)\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.7.0\u0027, revision: \u00272321c73\u0027, time: \u00272017-11-02T22:22:35.584Z\u0027\nSystem info: host: \u0027SEKHAR-PC\u0027, ip: \u0027172.20.10.4\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_221\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 78.0.3904.87, chrome: {chromedriverVersion: 78.0.3904.70 (edb9c9f3de024..., userDataDir: C:\\Users\\Sekhar\\AppData\\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:49829}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nSession ID: 6c10b072c09fbac18be05cabeac132d1\n*** Element info: {Using\u003dxpath, value\u003d//div[@class\u003d\u0027newNdgeCochMrk hide\u0027]//img}\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)\r\n\tat java.lang.reflect.Constructor.newInstance(Unknown Source)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:370)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:472)\r\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:361)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)\r\n\tat pages.HomePage.getNoOfPlots(HomePage.java:86)\r\n\tat stepDefinationFiles.StepDefinationClass.user_can_see_all_floats_under_hyderabad(StepDefinationClass.java:79)\r\n\tat ✽.Then User can see all floats under hyderabad(Home.feature:20)\r\n",
+  "duration": 1240988400,
+  "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//div[@class\u003d\u0027newNdgeCochMrk hide\u0027]//img\"}\n  (Session info: chrome\u003d78.0.3904.108)\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.7.0\u0027, revision: \u00272321c73\u0027, time: \u00272017-11-02T22:22:35.584Z\u0027\nSystem info: host: \u0027SEKHAR-PC\u0027, ip: \u0027192.168.0.103\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_221\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 78.0.3904.108, chrome: {chromedriverVersion: 78.0.3904.70 (edb9c9f3de024..., userDataDir: C:\\Users\\Sekhar\\AppData\\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:58795}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nSession ID: 77f889f9fee58a0d72d15a01934d8bdc\n*** Element info: {Using\u003dxpath, value\u003d//div[@class\u003d\u0027newNdgeCochMrk hide\u0027]//img}\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)\r\n\tat java.lang.reflect.Constructor.newInstance(Unknown Source)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:370)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:472)\r\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:361)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)\r\n\tat pages.HomePage.getNoOfPlots(HomePage.java:86)\r\n\tat stepDefinationFiles.StepDefinationClass.user_can_see_all_floats_under_hyderabad(StepDefinationClass.java:79)\r\n\tat ✽.Then User can see all floats under hyderabad(Home.feature:20)\r\n",
   "status": "failed"
 });
 formatter.match({
@@ -237,7 +237,7 @@ formatter.result({
   "status": "skipped"
 });
 formatter.after({
-  "duration": 4763178800,
+  "duration": 1521327000,
   "status": "passed"
 });
 });
